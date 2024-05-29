@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "streamlit-reddit-a547a",
+  "private_key_id": "b5c61d9f5bda8197378c5307661351209ba3f85d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDMvI2+YnKnQcvt\n3CzhUjZqmRR4D8NCEyg0JjtdB0uAbGipO0kEdXw3+gOPcjxRieyeIzfz6QVYTect\nPs9BWqb/vjbE9rpUKQwkhFfKiAkUw6uI6ZygNbLt6J+u6/a9PTfWZN2afkbLk5MQ\nGY0J9l/rPgS18OzRVSKFqpsCpTBhsTXEXz/Y7Q3boBL5FVJqC2svHyoilxm6vkdz\nxpwZT0P5/Az3eq7QlsgCFGw+7vCQ68HGWTrK56b6Pc6pmMHAXMOeKrav28Li6Umr\nBXneQezGxp0/sC0Xy4mCod+QdmqU/LAO/dvl0ayL59sLc3lJUsqTDfcGkfR7ZgYp\npguXj0y1AgMBAAECggEACnftq3lvMVws6Dmk1dSVUbgIEueDbWJ7YMc/q88Orj9c\nzqJoZmD3fAk9m10U9npd7ewRFVip3E0HcAnRIR9YgKUiOcn/1wPOSiO2NXXlOPmU\nUMjZKFv2jTGi0JfiIuT5cO3xYs/oIMqn71/PFV5Soz2lkgQCp+V5gWoqyOTXZ3dH\nxUF0zmJ2yl8lH28TwqIgjS/SbDbyE+tb8UIUR5nw0GDEyvghBx9UYxHBgiFfu23Z\nyZe0+vfwiIIyqvaY+ViLV9pIRYQK+MLBFUxVx5Ajn2d31diPpmLgBtScQfkiKl1M\nkGg0VjyiZDR227v7OVlC71UH0zi0Z9lHNqpJg9IY1QKBgQDokx8cqsIsNSpDEMw7\nvEmKoYYHyJnG7q+tDrr4TvCztvoCOgU6RzVBnDbXA+syMxrJAYUPwyf8CN6FdOdV\ndjRSgSlPYs86tgNr+ga5dlY1alPbOugn2gYLYpSFy37/65zqakt4w4pyZFvfURZW\n/e7JMsoHYyymwcjWCA697RjNYwKBgQDhW6HrHlVEcRCgkxb1ZIDGP8yngWGbnKig\nTm5NG0FFwI6YjKX3Ydt9MzRmaLU4Tt/tu+3elWQvOZYMOu/rQz4pbKNGd2yZiDYE\nMMWtsmmGWbDs2jLvjJIzND+JFvwkfizl+x4MKZ1GxZ6K4JLXyLfKBUgMpi6Ois7X\nDxCuc0JFBwKBgQCdbDf653pXAgWBL7WOGXyN4ZcfXaD5DkbLFNVpjcVPX+MJ7svr\nDpf1uQ9FqtlgOUdAF09BxA8kgbxdCSwspL31uoeDvJYYX2shgzNaBceEkFwCYHUT\nxHei7S8rAPsNryWfZiN/spvboiKtne1JJMikV0R4i6CFn1WZygpwdDP9kQJ/Ud33\n9HIQh8yLPcoxjPP11A9ZSYC29ND0cUgMyfYcwDozkzeFE1l5YwI3Bv0C2HHO545d\n235p5r4ExGyku9Kxwlq09eRsj1nsRZlyNqeZrjTnESQzXNK0SeWxLxwqfRdZODMB\nt2lmuU8RSWJL9hf0rG8+vVmhkCbc/UN7y+QTLwKBgGIenvWV0KOu2/6w/Z89Yvs1\n5GhHkW3crGu1cQ9Rz/rhBkI+fur3ut/LLupMIbjdWps9Y5a4scms1p3K/glG2H6n\nVERSekJYGWSXdAoaGS+MPkJ8r+yExdhoGYB/mIRNAgaW+XNAARlFYintclCID3O7\nlN8rk2esk7plmjpOwttA\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-vnchu@streamlit-reddit-a547a.iam.gserviceaccount.com",
+  "client_id": "107609668317433470693",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-vnchu%40streamlit-reddit-a547a.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

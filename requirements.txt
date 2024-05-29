@@ -1,2 +1,5 @@
-streamlit
+streamlit==1.33.0
 google-cloud-firestore
+google.generativeai
+google-auth
+pandas==2.1.2
