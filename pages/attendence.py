@@ -1,4 +1,3 @@
-
 import streamlit as st
 from google.cloud import firestore
 from datetime import datetime
@@ -168,7 +167,48 @@ def main():
             st.experimental_rerun()
             st.session_state.new_date_added = False
 
+        # Add date range filter
+        st.write("### Date Range Filter")
+        start_date = st.date_input("Start Date")
+        end_date = st.date_input("End Date")
+
+        # Add a search button
+        search_button = st.button('Search')
+
+        # Fetch data based on the selected date range when the search button is clicked
+        if search_button:
+            if start_date and end_date:
+                start_date_str = start_date.strftime('%Y-%m-%d')
+                end_date_str = end_date.strftime('%Y-%m-%d')
+                filtered_data = []
+                for student_id, student_data in students.items():
+                    name = student_data['name']
+                    attendance = student_data.get('attendance', {})
+                    total_classes_attended = student_data.get('total_classes_attended', 0)
+                    total_classes_marked = len(attendance)
+                    attendance_percentage = student_data.get('attendance_percentage', 0)
+                    
+                    # Filter attendance data based on the selected date range
+                    filtered_attendance = {date: status for date, status in attendance.items() if start_date_str <= date <= end_date_str}
+                    
+                    # Create a row with name, filtered attendance dates, total attended, and percentage
+                    row = {"Name": name}
+                    for date in filtered_attendance:
+                        row[date] = filtered_attendance[date]
+                    row["Total Attended"] = f"{total_classes_attended} / {total_classes_marked}"
+                    row["Attendance Percentage"] = f"{attendance_percentage:.2f}%"
+                    filtered_data.append(row)
+                
+                # Convert the filtered data to a DataFrame for display
+                filtered_df = pd.DataFrame(filtered_data)
+                
+                # Display the filtered attendance records
+                st.write("### Filtered Attendance Records")
+                st.dataframe(filtered_df)
+            else:
+                st.warning("Please select both start and end dates for the search.")
+
 # Run the Streamlit app
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
 

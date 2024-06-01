@@ -4,5 +4,5 @@ google.generativeai
 google-auth
 pandas==2.1.2
 firebase_admin
-st_aggrid 
+streamlit-aggrid
 streamlit_card
